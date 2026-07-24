@@ -3,380 +3,165 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portafolio profesional de Angel Augusto Samudio Guillen — desarrollador de software.">
-  <title>Angel Augusto Samudio Guillen — Portafolio</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portafolio profesional de Angel Augusto Samudio Guillen — desarrollador Android y web.">
+  <title>Angel Samudio — Portafolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header class="navbar" id="navbar" role="banner">
-    <div class="container navbar-container">
-      <a href="#inicio" class="navbar-logo" aria-label="Ir al inicio">Angel</a>
-      <button class="navbar-toggle" id="navbar-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <nav class="navbar-menu" id="navbar-menu" role="navigation" aria-label="Navegación principal">
-        <ul class="navbar-links">
-          <li><a href="#inicio" class="nav-link">Inicio</a></li>
-          <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
-          <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
-          <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
-          <li><a href="#contacto" class="nav-link">Contacto</a></li>
-        </ul>
+  <header class="site-header">
+    <div class="nav">
+      <a class="logo" href="#inicio">Angel Samudio</a>
+      <nav class="nav-links" aria-label="Navegacion principal">
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </div>
   </header>
 
-  <main id="main-content">
-    <section id="inicio" class="hero-section" aria-labelledby="hero-heading">
-      <div class="container hero-container">
-        <div class="hero-text">
-          <p class="hero-greeting">Hola, soy</p>
-          <h1 id="hero-heading" class="hero-name">Angel Augusto Samudio Guillen</h1>
-          <p class="hero-title">Estudiante de Ingenieria en Sistemas y Computo</p>
-          <p class="hero-bio">
-            Estudiante de desarrollo de software apasionado por crear aplicaciones
-            funcionales y experiencias digitales bien diseñadas.
-          </p>
-          <div class="hero-buttons">
-            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
-            <a href="https://github.com/PhilsC8" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-              Visitar GitHub
-            </a>
-          </div>
-        </div>
-        <div class="hero-image">
-          <div class="avatar-placeholder" aria-label="Fotografia de Angel Augusto Samudio Guillen" role="img">
-            <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" opacity="0.85"><path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v1.2c0 .66.54 1.2 1.2 1.2h16.8c.66 0 1.2-.54 1.2-1.2v-1.2c0-3.2-6.4-4.8-9.6-4.8z"/></svg>
-          </div>
-        </div>
-      </div>
-    </section>
+  <main>
 
-    <section id="sobre-mi" class="section about-section" aria-labelledby="about-heading">
-      <div class="container">
-        <h2 id="about-heading" class="section-title">Sobre mí</h2>
-        <div class="about-content">
-          <p class="about-text">
-            Soy estudiante de los ultimos anos de Ingenieria en Sistemas y Computo en la
-            Universidad Tecnologica de Panama (UTP). Me especializo en el diseno de paginas
-            web y en el desarrollo de aplicaciones moviles mediante Android Studio.
-          </p>
-          <p class="about-text">
-            Actualmente me enfoco en el desarrollo de aplicaciones móviles con Android y Java, y en la
-            creación de soluciones web completas que integren bases de datos en la nube como Supabase y
-            PostgreSQL. Me interesa especialmente el diseño de arquitecturas limpias, la gestión eficiente
-            de datos y la construcción de interfaces intuitivas.
-          </p>
-          <p class="about-text">
-            Estoy en búsqueda de oportunidades donde pueda aplicar mis conocimientos en programación,
-            bases de datos y desarrollo móvil para resolver problemas reales y seguir creciendo
-            profesionalmente en el área de la ingeniería de software.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="habilidades" class="section skills-section" aria-labelledby="skills-heading">
-      <div class="container">
-        <h2 id="skills-heading" class="section-title">Habilidades</h2>
-        <div class="skills-grid">
-          <!-- Agrega, elimina o modifica habilidades aquí -->
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-            </div>
-            <span class="skill-name">Java</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            </div>
-            <span class="skill-name">Android Studio</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M5 12a7 7 0 0 1 14 0M5 12a7 7 0 0 0 14 0M12 5v14"/></svg>
-            </div>
-            <span class="skill-name">Supabase</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
-            </div>
-            <span class="skill-name">PostgreSQL</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 7h10M7 12h10M7 17h6"/></svg>
-            </div>
-            <span class="skill-name">SQLite</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 7 12 3 20 7"/><polyline points="4 17 12 21 20 17"/><line x1="12" y1="3" x2="12" y2="21"/><polyline points="4 7 4 17"/><polyline points="20 7 20 17"/></svg>
-            </div>
-            <span class="skill-name">HTML</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-            </div>
-            <span class="skill-name">CSS</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v4H4zM4 10h10v4H4zM4 16h14v4H4z"/><circle cx="19" cy="12" r="3"/></svg>
-            </div>
-            <span class="skill-name">JavaScript</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><line x1="1.05" y1="12" x2="7" y2="12"/><line x1="17.01" y1="12" x2="22.96" y2="12"/></svg>
-            </div>
-            <span class="skill-name">Git</span>
-          </div>
-
-          <div class="skill-card">
-            <div class="skill-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            </div>
-            <span class="skill-name">GitHub</span>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="proyectos" class="section projects-section" aria-labelledby="projects-heading">
-      <div class="container">
-        <h2 id="projects-heading" class="section-title">Proyectos</h2>
-        <div class="projects-grid">
-
-          <!-- PROYECTO 1: Turismo Chiriqui -->
-          <article class="project-card">
-            <div class="project-image">
-              <div class="project-image-placeholder" aria-hidden="true">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13.4 20 10a8 8 0 1 0-16 0c0 3.4 2.7 7 8 11.7z"/></svg>
-              </div>
-              <img src="assets/images/turismo-chiriqui.jpg" alt="Turismo Chiriqui" loading="lazy">
-            </div>
-            <div class="project-info">
-              <h3 class="project-name">Turismo Chiriqui</h3>
-              <p class="project-description">
-                App Android para gestionar tours, promociones, reservas, itinerarios, clientes
-                y comprobantes de pago Yappy. Backend completo en Supabase con PostgreSQL,
-                autenticacion, almacenamiento de imagenes y control de acceso por roles.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Android Studio</span>
-                <span class="tech-tag">Supabase</span>
-                <span class="tech-tag">PostgreSQL</span>
-                <span class="tech-tag">Retrofit</span>
-                <span class="tech-tag">Glide</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/PhilsC8/Semestraldeturismo" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Ver repositorio</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROYECTO 2: Chiriqui Eats -->
-          <article class="project-card">
-            <div class="project-image">
-              <div class="project-image-placeholder" aria-hidden="true">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8zm4-7v3m4-3v3m4-3v3"/></svg>
-              </div>
-              <img src="assets/images/chiriqui-eats.jpg" alt="Chiriqui Eats" loading="lazy">
-            </div>
-            <div class="project-info">
-              <h3 class="project-name">Chiriqui Eats</h3>
-              <p class="project-description">
-                App de delivery de comida para Chiriqui Eats S.A. Clientes navegan restaurantes
-                (Taco Bell, KFC, McDonald's), arman combos, pagan via Yappy y suben comprobantes.
-                Administradores gestionan menus, pedidos y envian confirmaciones JSON por correo.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Android Studio</span>
-                <span class="tech-tag">SQLite</span>
-                <span class="tech-tag">Supabase</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/PhilsC8/ChiriquiEatsApp" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Ver repositorio</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROYECTO 3: Chinos Cafe - Pizza Combos -->
-          <article class="project-card">
-            <div class="project-image">
-              <div class="project-image-placeholder" aria-hidden="true">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm-1 4h2v2h-2V6zm0 4h2v8h-2v-8z"/></svg>
-              </div>
-              <img src="assets/images/chinos-cafe.jpg" alt="Chinos Cafe - Pizza Combos" loading="lazy">
-            </div>
-            <div class="project-info">
-              <h3 class="project-name">Chinos Cafe - Pizza Combos</h3>
-              <p class="project-description">
-                App Android de arma tu combo de pizza. El cliente elige tamano, sabor, refresco,
-                postre y extras, paga con efectivo o Yappy, y sube comprobante. El admin aprueba
-                pedidos y exporta JSON. Backend con Node.js/Express, PostgreSQL y Supabase.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Android Studio</span>
-                <span class="tech-tag">SQLite</span>
-                <span class="tech-tag">Node.js</span>
-                <span class="tech-tag">Supabase</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/PhilsC8/Chinoscafes" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Ver repositorio</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROYECTO 4: Sucesos y Mas -->
-          <article class="project-card">
-            <div class="project-image">
-              <div class="project-image-placeholder" aria-hidden="true">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-              </div>
-              <img src="assets/images/sucesos-y-mas.jpg" alt="Sucesos y Mas" loading="lazy">
-            </div>
-            <div class="project-info">
-              <h3 class="project-name">Sucesos y Mas</h3>
-              <p class="project-description">
-                App informativa y directorio empresarial con navegacion por fragmentos y menu lateral.
-                Incluye secciones de inicio, clientes (Super Baru, Riba Smith, Nacion Sushi, Java
-                Juice, Coparey, Cinepolis, Caja de Ahorros), servicios, contactos y ubicacion.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Android Studio</span>
-                <span class="tech-tag">Fragments</span>
-                <span class="tech-tag">Material Design</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/PhilsC8/Sucesosymas" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Ver repositorio</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROYECTO 5: Simple Calculador Belen -->
-          <article class="project-card">
-            <div class="project-image">
-              <div class="project-image-placeholder" aria-hidden="true">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="13" y2="14"/><line x1="8" y1="18" x2="16" y2="18"/></svg>
-              </div>
-              <img src="assets/images/calculador-belen.jpg" alt="Simple Calculador Belen" loading="lazy">
-            </div>
-            <div class="project-info">
-              <h3 class="project-name">Simple Calculador Belen</h3>
-              <p class="project-description">
-                Calculadora basica que realiza suma, resta, multiplicacion y division de dos numeros.
-                Incluye validacion de entradas (division por cero, campos vacios, numeros grandes),
-                boton de reinicio y boton "A" para reutilizar el resultado anterior.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Android Studio</span>
-                <span class="tech-tag">XML</span>
-                <span class="tech-tag">Material Design</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/PhilsC8/Simplecalculadorbelen" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Ver repositorio</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- PROYECTO 6: Prototipo Universidad -->
-          <article class="project-card">
-            <div class="project-image">
-              <div class="project-image-placeholder" aria-hidden="true">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5a6 3 0 0 0 12 0v-5"/></svg>
-              </div>
-              <img src="assets/images/prototipo-universidad.jpg" alt="Prototipo Universidad" loading="lazy">
-            </div>
-            <div class="project-info">
-              <h3 class="project-name">Prototipo Universidad</h3>
-              <p class="project-description">
-                Prototipo academico para gestion de tareas de limpieza y seguimiento de gastos.
-                Permite asignar tareas con nombre, ubicacion, fecha y estado; registrar gastos
-                con categoria y monto; editar o eliminar registros; y exportar datos como JSON
-                para compartir por correo.
-              </p>
-              <div class="project-tech">
-                <span class="tech-tag">Java</span>
-                <span class="tech-tag">Android Studio</span>
-                <span class="tech-tag">SQLite</span>
-                <span class="tech-tag">JSON</span>
-              </div>
-              <div class="project-links">
-                <a href="https://github.com/PhilsC8/prototipo-universidad" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">Ver repositorio</a>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="contacto" class="section contact-section" aria-labelledby="contact-heading">
-      <div class="container">
-        <h2 id="contact-heading" class="section-title">Contacto</h2>
-        <p class="contact-intro">
-          ¿Tienes un proyecto en mente o quieres conversar? Escríbeme.
+    <!-- INICIO -->
+    <section id="inicio" class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Portafolio personal</p>
+        <h1>Angel Augusto Samudio Guillen</h1>
+        <h2>Estudiante de Ingenieria en Sistemas y Computo</h2>
+        <p class="hero-text">
+          Desarrollo aplicaciones moviles con Java y Android Studio, y creo paginas web
+          con integracion de bases de datos en la nube como Supabase y PostgreSQL.
         </p>
-        <div class="contact-links">
-          <a href="mailto:angel.samudio2@utp.ac.pa" class="contact-item" aria-label="Enviar correo electrónico">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-            <span>angel.samudio2@utp.ac.pa</span>
-          </a>
-          <a href="https://github.com/PhilsC8" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="Visitar perfil de GitHub">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-            <span>GitHub</span>
-          </a>
-          <!-- Si no tienes LinkedIn, elimina este enlace -->
-          <a href="https://linkedin.com/in/philasarts" target="_blank" rel="noopener noreferrer" class="contact-item" aria-label="Visitar perfil de LinkedIn">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-            <span>LinkedIn</span>
-          </a>
+        <div class="hero-actions">
+          <a class="btn primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn secondary" href="https://github.com/PhilsC8" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
-        <a href="mailto:angel.samudio2@utp.ac.pa" class="btn btn-primary contact-btn">Enviar correo</a>
+      </div>
+      <div class="hero-card" aria-label="Resumen profesional">
+        <span class="status-dot"></span>
+        <p>Abierto a oportunidades</p>
+        <strong>Java + Android Studio + Supabase</strong>
+        <small>Apps moviles, bases de datos PostgreSQL, interfaces intuitivas y control de versiones con Git.</small>
       </div>
     </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section split">
+      <div>
+        <p class="eyebrow">Sobre mi</p>
+        <h2>Construyo apps funcionales y paginas web limpias.</h2>
+      </div>
+      <div>
+        <p>
+          Soy estudiante de los ultimos anos de Ingenieria en Sistemas y Computo en la
+          Universidad Tecnologica de Panama (UTP). Me especializo en el diseno de paginas
+          web y en el desarrollo de aplicaciones moviles mediante Android Studio.
+        </p>
+        <p style="margin-top:18px">
+          Me enfoco en el desarrollo movil con Android y Java, y en la creacion de
+          soluciones web completas que integren bases de datos en la nube como Supabase y
+          PostgreSQL. Busco oportunidades donde pueda aplicar mis conocimientos para
+          resolver problemas reales y seguir creciendo profesionalmente.
+        </p>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section">
+      <p class="eyebrow">Tecnologias</p>
+      <h2>Habilidades principales</h2>
+      <div class="skills-grid">
+        <span>Java</span>
+        <span>Android Studio</span>
+        <span>Supabase</span>
+        <span>PostgreSQL</span>
+        <span>SQLite</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Git</span>
+        <span>GitHub</span>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section">
+      <p class="eyebrow">Trabajo reciente</p>
+      <h2>Proyectos</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div>
+            <span class="project-tag">Destacado</span>
+            <h3>Turismo Chiriqui</h3>
+            <p>App Android con Java para gestionar tours, promociones, reservas, itinerarios, clientes y comprobantes Yappy. Backend completo en Supabase con PostgreSQL, autenticacion, almacenamiento de imagenes y control de acceso por roles.</p>
+          </div>
+          <a href="https://github.com/PhilsC8/Semestraldeturismo" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>Chiriqui Eats</h3>
+            <p>App de delivery de comida para Chiriqui Eats S.A. Clientes navegan restaurantes, arman combos, pagan via Yappy y administradores gestionan pedidos con confirmaciones JSON.</p>
+          </div>
+          <a href="https://github.com/PhilsC8/ChiriquiEatsApp" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>Chinos Cafe &mdash; Pizza Combos</h3>
+            <p>App de arma tu combo de pizza con pago Yappy, aprobacion de pedidos, exportacion JSON y backend en Node.js/Express con PostgreSQL y Supabase.</p>
+          </div>
+          <a href="https://github.com/PhilsC8/Chinoscafes" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>Sucesos y Mas</h3>
+            <p>App informativa con navegacion por fragments y menu lateral. Directorio de clientes, servicios, contactos y ubicacion para el negocio Sucesos y Mas.</p>
+          </div>
+          <a href="https://github.com/PhilsC8/Sucesosymas" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>Simple Calculador Belen</h3>
+            <p>Calculadora Android con validacion de entradas, boton de reinicio y reutilizacion del resultado anterior para calculos encadenados.</p>
+          </div>
+          <a href="https://github.com/PhilsC8/Simplecalculadorbelen" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+
+        <article class="project-card">
+          <div>
+            <h3>Prototipo Universidad</h3>
+            <p>App academica para gestion de tareas de limpieza y seguimiento de gastos con SQLite, exportacion JSON y adaptadores personalizados.</p>
+          </div>
+          <a href="https://github.com/PhilsC8/prototipo-universidad" target="_blank" rel="noopener noreferrer">Ver repositorio</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section contact">
+      <p class="eyebrow">Contacto</p>
+      <h2>Conectemos</h2>
+      <p>Estoy construyendo mi experiencia como desarrollador Android y compartiendo mis proyectos en GitHub. Si queres conversar o colaborar, escribime.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:angel.samudio2@utp.ac.pa">angel.samudio2@utp.ac.pa</a>
+        <a class="btn secondary" href="https://github.com/PhilsC8" target="_blank" rel="noopener noreferrer">github.com/PhilsC8</a>
+        <a class="btn secondary" href="https://linkedin.com/in/philasarts" target="_blank" rel="noopener noreferrer">linkedin.com/in/philasarts</a>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer" role="contentinfo">
-    <div class="container footer-container">
-      <p class="footer-name">Angel Augusto Samudio Guillen</p>
-      <div class="footer-links">
-        <a href="https://github.com/PhilsC8" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-        </a>
-        <!-- Si tienes LinkedIn, descomenta este enlace y actualiza el href -->
-        <a href="https://linkedin.com/in/philasarts" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-        </a>
-      </div>
-      <p class="footer-copy">&copy; <span id="current-year"></span> Angel Augusto Samudio Guillen</p>
-    </div>
+  <footer class="footer">
+    <p>&copy; <span id="current-year"></span> Angel Augusto Samudio Guillen. Portafolio personal.</p>
   </footer>
 
   <script src="script.js"></script>
